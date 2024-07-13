@@ -7,7 +7,9 @@ services:
       - "8080:8080"
     volumes:
       - ./jenkins_home:/var/jenkins_home
+    restart: unless-stopped
   ssh-agent:
     image: jenkins/ssh-agent
     hostname: jenkins-agent
     container_name: jenkins-agent
+    restart: unless-stopped
