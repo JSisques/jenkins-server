@@ -4,8 +4,6 @@
 
 Jenkins Server es un proyecto que facilita la configuración de un servidor Jenkins utilizando Docker Compose.
 
----
-
 ## 📝 Descripción
 
 Este repositorio contiene un Docker Compose que configura un contenedor de Jenkins, una herramienta de automatización ampliamente utilizada en el desarrollo de software.
