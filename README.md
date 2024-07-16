@@ -61,4 +61,4 @@ En este repositorio encontrarás los siguientes archivos:
 
 ## 📜 Licencia
 
-Este proyecto está bajo la siguiente licencia: [Colocar aquí el tipo de licencia]
+Este proyecto está bajo la siguiente licencia: [LICENSE.md](./LICENSE.md)
