@@ -10,6 +10,6 @@ services:
     restart: unless-stopped
   ssh-agent:
     image: jenkins/ssh-agent
-    hostname: jenkins-agent
-    container_name: jenkins-agent
+    hostname: jenkins-ssh-agent
+    container_name: jenkins-ssh-agent
     restart: unless-stopped
