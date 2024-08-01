@@ -3,6 +3,8 @@ services:
     image: jenkins/jenkins
     hostname: jenkins-server
     container_name: jenkins-server
+    privileged: true
+    user: root
     ports:
       - "8080:8080"
     volumes:
